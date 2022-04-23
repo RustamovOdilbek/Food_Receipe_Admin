@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AddActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|top">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:paddingStart="10dp"
+                android:text="@string/str_product_name"
+                android:textColor="#27910B"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/view_rounded_line"
+                android:hint="@string/str_name"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="15dp"
+                android:drawableEnd="@mipmap/ic_email"
+                android:paddingRight="15dp"
+                android:textColor="#27910B"
+                android:textColorHint="#27910B"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:paddingStart="10dp"
+                android:text="@string/str_product_price"
+                android:textColor="#27910B"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_price"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/view_rounded_line"
+                android:hint="@string/str_price"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="15dp"
+                android:drawableEnd="@mipmap/ic_email"
+                android:paddingRight="15dp"
+                android:textColor="#27910B"
+                android:textColorHint="#27910B"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:text="@string/str_product_picture"
+            android:textColor="#27910B"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_picture"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/ic_image"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/str_add"
+            android:textColor="#27910B"
+            android:background="@drawable/view_rounded_line"
+            app:backgroundTint="@null"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

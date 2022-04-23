@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Food Receipe Admin</string>
+    <string name="str_fullname">Fullname</string>
+    <string name="str_email">Email</string>
+    <string name="str_password">Password</string>
+    <string name="str_cpassword">Confirm Password</string>
+    <string name="str_signin">Sign In</string>
+    <string name="str_signup">Sign Up</string>
+    <string name="str_already_accoumt">Already have an account</string>
+    <string name="str_donot_account">Don\'t have an account</string>
+
+    <string name="str_signin_success">Signed in Successfully</string>
+    <string name="str_signin_failed">Signed in failed</string>
+    <string name="str_signup_success">Signed up successfully</string>
+    <string name="str_signup_failed">Signed up failed</string>
+    <string name="str_add">Add</string>
+    <string name="str_product_picture">Product picture</string>
+    <string name="str_price">price</string>
+    <string name="str_product_price">Product price</string>
+    <string name="str_product_name">Product name</string>
+    <string name="str_name">name</string>
+    <string name="str_product_list">Product list</string>
+    <string name="str_green_chillis">Green Chillis</string>
+</resources>
